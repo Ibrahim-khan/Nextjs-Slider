@@ -16,7 +16,7 @@ export default function Home() {
   const zoomInPropertics = {
       scale: 1,
       duration: 3000,
-      transitionDuration: 300,
+      transitionDuration: 1000,
       infinity: true,
       indicators: true,
 
@@ -46,12 +46,10 @@ export default function Home() {
 
 
   return (
-    <main className="min-h-screen max-w-screen-2xl flex justify-center items-center position relative">
-      <h1 className="text-3xl font-bold underline bg-red-200">
-        Bio Spray Plus
-      </h1>
+    <main className="sm:mx-10 md:mx-20 lg:mx-32 xl:mx-40 min-h-screen max-w-screen flex justify-center items-center position relative">
       
-      <div className="w-2/4 h-3/5 relative">
+      
+      <div className="w-full sm:h-[600px] md:h-[700px] relative">
         <Zoom {...zoomInPropertics}>
           {images.map((each, index) => (
             <div key={index} className="flex items-center justify-center h-full w-full">
