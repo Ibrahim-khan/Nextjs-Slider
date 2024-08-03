@@ -24,9 +24,7 @@ export default function Home() {
         <div className="ml-10 top-1/2">
           <ArrowLeftIcon 
           className="h-8 w-8 font-normal text-white cursor-pointer">
-          
-          
-          
+            
           </ArrowLeftIcon>
         </div>
       ),
@@ -35,9 +33,7 @@ export default function Home() {
         <div className="mr-10 top-1/2">
           <ArrowRightIcon 
           className="h-8 w-8 font-normal text-white cursor-pointer">
-          
-          
-          
+
           </ArrowRightIcon>
         </div>
       )
@@ -48,6 +44,25 @@ export default function Home() {
   return (
     <main className="sm:mx-10 md:mx-20 lg:mx-32 xl:mx-40 min-h-screen max-w-screen flex justify-center items-center position relative">
       
+				<div class="flex">
+				<a href="http://www.abnutric.com/Web/products/ListOfProducts-bio.asp" target="_blank">
+				<img src="logo/nutric.png" alt="Nutric" width="90px" height="25px"/>
+				</a>	
+				
+				<a href="https://www.facebook.com/BioSpray.Official.page" target="_blank">
+				<img src="logo/fb.png" alt="facebook page" width="30px" height="30px"/>
+				</a>
+				
+				<a href="https://www.youtube.com/@BioSprayPlusColostrumLiquid/featured" target="_blank">
+				<img src="logo/youtube.png" alt="Youtube Channel" width="30px" height="30px"/>
+				</a>
+				
+				<a href="https://www.linkedin.com/in/md-ibrahim-khan986/recent-activity/all/" target="_blank">
+				<img src="logo/linkedin.png" alt="Linkedin" width="30px" height="30px"/>
+				</a>
+															
+				</div>
+				
       
       <div className="w-full sm:h-[600px] md:h-[700px] relative">
         <Zoom {...zoomInPropertics}>
